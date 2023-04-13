@@ -6,6 +6,7 @@ import io.cucumber.java.en.When;
 
 public class LoginSteps {
 	
+		
 @Given("User is at login screen")	
 public void preconditions()
 {
@@ -35,5 +36,29 @@ public void ValidateOnHomePage()
 {
 	System.out.println("Then statment for Home page");
 }
+
+@When("User get title of page")
+public void user_get_title_of_page() {
+	System.out.println("When statment for get title of page");
+}
+
+@Then("Page title shold be verified")
+public void page_title_shold_be_verified() {
+	System.out.println("Then statment for title should be verifeid");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
